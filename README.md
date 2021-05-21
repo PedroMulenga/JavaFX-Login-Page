@@ -1,2 +1,2 @@
 # JavaFX-Login-Page
-Projecto de criação de uma tela de login utilizando JavaFx
+Criação de um sistema para controlo de usuários utilizando javaFx

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="18.0" prefHeight="566.0" prefWidth="622.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="47.0">
+         <children>
+            <AnchorPane layoutX="277.0" layoutY="77.0" maxWidth="294.0" prefHeight="412.0" prefWidth="292.0" style="-fx-background-color: white; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="277.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="47.0">
+               <children>
+                  <Label layoutX="79.0" layoutY="25.0" prefHeight="25.0" prefWidth="79.0" text="Sign In" textFill="#6b540a">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="txtPassword" layoutX="84.0" layoutY="281.0" prefHeight="33.0" prefWidth="238.0" promptText="********" />
+                  <TextField fx:id="txtNome" layoutX="84.0" layoutY="108.0" prefHeight="33.0" prefWidth="238.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtEmail" layoutX="84.0" layoutY="194.0" prefHeight="33.0" prefWidth="238.0" promptText="exemplo@gmail.com" />
+                  <Label layoutX="88.0" layoutY="71.0" prefHeight="25.0" prefWidth="61.0" text="Nome*" textFill="#051937">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="160.0" prefHeight="25.0" prefWidth="61.0" text="Email*" textFill="#051937">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="245.0" prefHeight="25.0" prefWidth="61.0" text="Password*" textFill="#051937">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnSignIn" layoutX="87.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleSignIn" prefHeight="40.0" prefWidth="123.0" style="-fx-background-radius: 1em; -fx-background-color: orange;" text="Sign In" textFill="#051937">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="31.0" prefHeight="444.0" prefWidth="311.0" style="-fx-background-color: #051937; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="31.0">
+               <children>
+                  <VBox alignment="CENTER" layoutX="20.0" layoutY="153.0" prefHeight="444.0" prefWidth="311.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label text="TecnoBase Manager" textFill="#6b540a">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="copyright@tecnobase" textFill="#86185a">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label text="v1.0" textFill="#83814f">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
